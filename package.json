@@ -4,7 +4,8 @@
   "description": "ISOMETRIC context for smila rendering",
   "main": "lib/iso.js",
   "scripts": {
-    "test": "jasmine-node spec"
+    "test": "jasmine-node spec",
+     "debug": "browserify lib/iso.js --debug --s SmilaIso > build/smilaiso.bundle.debug.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/justayak/smila_iso_map/issues"
   },
+    "dependencies": {
+        "future-callbacks": "0.0.5",
+        "yutils" : "0.0.11"
+    },
   "homepage": "https://github.com/justayak/smila_iso_map"
 }
