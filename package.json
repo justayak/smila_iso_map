@@ -1,0 +1,25 @@
+{
+  "name": "smila_iso_map",
+  "version": "0.0.1",
+  "description": "ISOMETRIC context for smila rendering",
+  "main": "lib/iso.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justayak/smila_iso_map.git"
+  },
+  "keywords": [
+    "rendering",
+    "canvas",
+    "map",
+    "isometric"
+  ],
+  "author": "Julian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justayak/smila_iso_map/issues"
+  },
+  "homepage": "https://github.com/justayak/smila_iso_map"
+}
